@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 
 var PREFIX = ("*")
 
-bot.login('NDU0OTM0NDY5Mjg4MTMyNjA4.Df0zVQ.RQQO720NF2jCRZZ4x-DqWTTrZx0')
+bot.login(process.env.TOKEN)
 
 
 bot.on ('message', message => {
